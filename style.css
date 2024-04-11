@@ -5,20 +5,19 @@ body {
 
 header {
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
-    display: flex;
     align-items: center;
 }
 
 .button {
-    background-color: #AAA939;
+    background-color: #9FEE00;
     color: black;
     text-decoration: none;
+    font-weight: bold;
     padding: 15px;
     font-size: 24px;
     border-radius: 10px;
-    font-weight: bold;
 }
 
 nav {
@@ -26,7 +25,6 @@ nav {
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
-    display: flex;
 }
 
 .nav-link {
@@ -39,8 +37,8 @@ h1 {
     text-align: center;
     color: white;
     font-size: 36px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 60px;
 }
 
 p {
@@ -50,9 +48,8 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
 }
 
 article {
@@ -65,27 +62,55 @@ article {
 
 .article-but {
     text-decoration: none;
-    background-color: #503C91;
     color: white;
     font-size: 24px;
+    font-weight: bold;
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
 }
 
+.b1 {
+    background-color: #FF0000;
+}
+
+.b2 {
+    background-color: #009999;
+
+}
+.b3 {
+    background-color: #FF7400;
+
+}
+.b4 {
+    background-color: #00CC00;
+}
+
 footer {
-    background-color: #8C2F5E;
+    background-color: #CD0074;
     padding: 40px;
-    display: flex;
 }
 
 footer a {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 footer p {
     font-size: 24px;
 }
-.info {
+
+
+header, nav, .info, footer {
     display: flex;
+}
+
+.clr_img {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
